@@ -1,0 +1,17 @@
+{
+  "name": "yld-test-app",
+  "version": "1.0.0",
+  "description": "tech challenge test app",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon --watch src --exec 'npx tsc && node dist/index.js'"
+  },
+  "author": "amin aimeur",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "nodemon": "^3.1.4",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}

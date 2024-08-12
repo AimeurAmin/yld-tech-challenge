@@ -1,8 +1,9 @@
 import { Lazy } from 'yld-lazy-amin'
 
-const computation = new Lazy();
+// First example:
+const computation1 = new Lazy();
 
-const x = computation
+const x = computation1
   // simple function
   .add((a: number) => a * 2)
   // a plus function that will be given 1 as its first argument
@@ -12,10 +13,16 @@ const x = computation
 
 console.log(x);
 
-const y = computation.add(Math.sqrt).evaluate([1])
+// Second example:
+const computation2 = new Lazy();
+
+const y = computation2.add(Math.sqrt).evaluate([4])
 
 console.log(y);
 
-const z = computation.add((a, b) => a + b, 1).evaluate([1]);
+// Third example:
+const computation3 = new Lazy();
+
+const z = computation3.add((a, b) => a + b, 1).evaluate([1]);
 
 console.log(z);

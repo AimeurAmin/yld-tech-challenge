@@ -1,5 +1,15 @@
 # YLD Tech challenge
 
+## Options to run the package:
+
+1. The package is published to npm through github and it can be installed directly using `npm install`
+
+    - This is the [link to npm package](https://www.npmjs.com/package/yld-lazy-amin)
+
+    - command to install the package: `npm i yld-lazy-amin`
+
+2. You may also clone the repo and follow the below steps to run everything locally
+
 ## Steps to run & test
 
 ### 1. Clone repo

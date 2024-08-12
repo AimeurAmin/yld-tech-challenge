@@ -1,0 +1,18 @@
+{
+  "name": "yld-lazy-amin",
+  "version": "1.0.0",
+  "description": "tech challenge",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "author": "amin aimeur",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
